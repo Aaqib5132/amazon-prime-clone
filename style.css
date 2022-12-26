@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Mulish:wght@300&family=Poppins:ital,wght@1,300&family=Sofia&display=swap');
+  header{
+    position: fixed;
+    width: 100%;
+    top:0%;
+    z-index: 1;    /* important bec sometimes navbar goes underneath to the container */
+
+  }
+
+
+
+
+.navbar-container {
+    background-color: #0f171e;
+    height: 100px;
+    position: relative;
+   
+
+}
+
+.navbar-content-container {
+    /* background-color: red; */
+    height: 50px;
+    position: absolute;
+    width: 100;
+    top: 24px;
+    margin-left: 59px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 0.2fr 1.3fr 0.5fr;
+
+
+}
+.main-website-container{
+    margin-top:100px;
+
+}
+
+.logo-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+
+}
+
+.content-left a {
+    text-decoration: none;
+    margin: 0px 2px;
+    color: whitesmoke;
+    font-family: 'happy monkey', sans-serif;
+    font-weight: 600;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-button button {
+    background-color: #0f79af;
+    width: 120px;
+    height: 38px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #0f79af;
+
+}
+.main-container {
+
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: auto;
+   
+
+
+}
+
+.main-container .image-container {
+    display: flex;
+    justify-content: end;
+
+
+}
+
+img {
+    width: 90%;
+}
+
+
+.main-container .middle-div {
+    /* background-color: aqua; */
+    display: flex;
+    top: 120px;
+    width: 98vw;
+    position: absolute;
+}
+
+.main-container .middle-div .text-container {
+    /* background-color: red; */
+    width: 50%;
+    padding: 20px 5%;
+    line-height: 2;
+
+
+}
+
+.text-color {
+    color: whitesmoke;
+    font-family: 'Happy Monkey', cursive;
+
+
+}
+
+.button-text-color button {
+
+    background-color: #0f79af;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 2px solid #0f79af;
+
+
+}
+
+button:hover {
+    background-color: #00a0d6;
+}
+
+.image-container-2 {
+    display: flex;
+    justify-content: flex-start;
+    width: 65vw;
+}
+
+.main-container .middle-div-2 {
+    display: flex;
+    top: 120px;
+    right: 34px;
+    position: absolute;
+}
+
+.heading2 {
+    font-size: 20px;
+}
+
+.links-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 20px;
+
+}
+
+.links-container .card-links-cotainer {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+
+.links-container .text-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.links-container .text-container h2 {
+    font-family: 'Happy Monkey', cursive;
+    color: #000;
+    font-size: 50px;
+}
+
+.links-container .text-container {
+    font-family: 'Happy Monkey', cursive;
+    color: #000;
+    font-size: 47px;
+    line-height: 1.5;
+    padding: 22px;
+    justify-content: center;
+
+}
+
+.links-container .text-container p {
+    line-height: 2.0;
+    font-size: 21px;
+    color: #000;
+    font-family: 'Happy Monkey', cursive;
+
+
+}
+
+.gen-para {
+    line-height: 2.0;
+    font-size: 21px;
+    color: #fff;
+    font-family: 'Happy Monkey', cursive;
+
+}
+
+.links-container .card-links-cotainer .icon-container {
+
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.icon-container {
+    margin: 3px;
+}
+
+.icon-container img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.icon-container:hover {
+    box-shadow: 0px 1px 6px 4px #333;
+    /* box-shadow: 0px 1px 6px 4px #333; */
+
+    /* z-index: 10;  */
+}
+
+.remote-section {
+    /* background-color: #000; */
+    background: url(./images/remote-pic.jpg);
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    background-size: cover;
+    height: 45vw;
+}
+
+.remote-section .remote-image {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.bottom-container {
+    background: url(./images/bottom-image.jpg);
+    height: 45vw;
+
+}
+
+.bottom-container .bottom-text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.bottom-container .bottom-text-container .bottom-heading-container {
+    padding: 10px 15%;
+    margin: 50px auto;
+}
+
+.footer {
+    background-color: #333;
+
+
+}
+
+.footer .logo {
+
+    align-items: center;
+    line-height: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 10px 0px;
+}
+
+.footer .logo img {
+    margin-left: 123px;
+    max-height: 32px;
+    margin-top: 11px;
+    width: 109px;
+}
+
+.footer .logo
+p {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.footer .logo a {
+    text-decoration: none;
+    color: lightskyblue;
+
+}
